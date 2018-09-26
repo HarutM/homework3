@@ -1,4 +1,3 @@
-<script>
 const func = function(num1, num2, num3) {
 	const operations = ((num1-num2)/num3)*num2
 	const sum = num1 + num2 + num3
@@ -92,6 +91,3 @@ const runStuff = function(str1, number1, number2){
           }
   };
   console.log(runStuff('triangle', 4, 5));
-
-</script>	
-
