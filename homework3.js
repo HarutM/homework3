@@ -63,12 +63,19 @@ console.log(r);
 };
   console.log(triangleArea(5, 10));
 
- const numLength = function(a){
-    const length1 = a.length
-    return length1;
-  };
-  const length2 = '123456789'
-  console.log(numLength(length2));
+
+
+   function numLength (numberl) {
+  const b = numberl.toString();
+  return b.length;
+}
+  console.log(numLength(578));
+
+//another way
+ //const numLength = function(a){
+    //return a.length;
+  //};
+  //console.log(numLength("852"));
 
  const stringsnumber = function(str1, str2, number1){
   const num = str1 + str1
@@ -91,3 +98,4 @@ const runStuff = function(str1, number1, number2){
           }
   };
   console.log(runStuff('triangle', 4, 5));
+
